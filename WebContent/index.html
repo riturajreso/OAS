@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>OAS</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript" src="slide.js">
+</script>
+</head>
+<body bgcolor="#dcdcdc">
+<div align="center" id="bold1" class="d1">
+<br/>
+<label><font face="frankruehl" color="#000000" size="+3">ONLINE ADMISSION SYSTEM</font></label>
+</div>
+<div align="left" id="RESULT">
+     		<a href="index.html"><font face="frankruehl" color="black">Home</font></a>							
+     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       		<a href="Aboutus.html"><font face="frankruehl" color="black">About Us</font></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       		<a href="#"><font face="frankruehl" color="black">Fee</font></a>
+       		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       		<a href="course.html"><font face="frankruehl" color="black">Course</font></a>
+       		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      		<a href="contactus.jsp"><font face="frankruehl" color="black">Contact Us</font></a>			
+    		
+</div>
+<div align="left" id="RESULT">
+		<img src="Picture/banner-bg.jpg" alt="Slideshow Image Script" title="Slideshow Image Script" name="slide" border=0 width=900 height=375>
+		<script type="text/javascript">
+		slideshowimages("Picture/slide1.jpg","Picture/1.jpg","Picture/2.jpg","Picture/3.jpg","Picture/4.jpg","Picture/5.jpg","Picture/7.jpg","Picture/8.jpg","Picture/6.jpg","Picture/slide2.jpg","Picture/bnr2.jpg","Picture/slide-4.jpg")
+		var slideshowspeed=2000;
+		var whichimage=0;
+		function slideit()
+		{
+			if (!document.images)
+				return
+				document.images.slide.src=slideimages[whichimage].src;
+			if (whichimage<slideimages.length-1)
+				whichimage++;
+			else
+				whichimage=0;
+				setTimeout("slideit()",slideshowspeed)
+		}
+		slideit();
+		
+		</script>
+</div>
+<div id="RESULT">
+     		<font face="frankruehl" color="black">	
+     		<marquee behavior="alternate" onmouseover="this.setAttribute('scrollamount',0,0);" onmouseout="this.setAttribute('scrollamount',6,0);">
+     		<font face="frankruehl" color="ff4500">
+     		<a href="Apply.html">Apply Now</a>
+     		</font>
+     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     		Welcome to the Online Admission Site
+     		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       		<font face="frankruehl" color="ff4500">
+       		<a href="Apply.html">Apply Now</a></font>
+     		</marquee>	
+     		</font>
+</div>
+<div align="center" id="footer">
+<table cellpadding="1" cellspacing="2">
+	<tr>
+		<td>
+        	<div align="center"><h4>Copyright © Techno India, Salt lake</h4>
+        	
+        	</div>
+        	</td>
+  	</tr>
+</table>
+</div>
+</body>
+</html>
